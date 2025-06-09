@@ -29,7 +29,14 @@
             <span class="hide-menu">Manajemen User</span>
           </a>
         </li>
+        <li class="sidebar-item">
+          <a class="sidebar-link" href="{{ route('admin.logs.index') }}" aria-expanded="false">
+            <i class="ti ti-list-details"></i>
+            <span class="hide-menu">Riwayat Aktivitas</span>
+          </a>
+        </li>
         @endif
+
       </ul>
     </nav>
   </div>
